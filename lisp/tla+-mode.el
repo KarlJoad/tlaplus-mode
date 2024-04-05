@@ -47,8 +47,6 @@
 (require 'comint)
 (eval-when-compile (require 'rx))
 
-(autoload 'comint-mode "comint")
-
 (defgroup tla+ nil
   "Support for the TLA+ model specification language."
   :tag "TLA+"
